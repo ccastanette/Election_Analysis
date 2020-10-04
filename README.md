@@ -57,4 +57,8 @@ Finally for each of these results we needed to save them to a text file using th
 
 ## Results
 
-The results that we received in our text file looked like this
+The results that we received in our text file looked like this: 
+
+![1](https://github.com/ccastanette/Election_Analysis/blob/master/Analysis/election_results.txt)
+
+This code can be used with any election results that are stored in the same format and will be very useful in other elections.
