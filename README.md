@@ -5,10 +5,12 @@
 The goal of this analysis was to use python to calculate the election results from a local congressional election.
 
 We were to provide the following:
-  1. The total votes cast in the election
-  2. The candidates names, the percentage of votes they received as well as the total count of votes they received.
-  3. Calculate the winner of the election and display their total winning vote count and winning percentage
-  4. Export the information above to a text file that can be provided to our managers
+  1. The total votes cast in the election.
+  2. The total number of votes from each county as well as the count and percentage of votes from that county.
+  3. The county with the largest voter turnout. 
+  4. The candidates names, the percentage of votes they received as well as the total count of votes they received.
+  6. Calculate the winner of the election and display their total winning vote count and winning percentage
+  6. Export the information above to a text file that can be provided to our managers
 
 ## Resources
 
@@ -16,23 +18,6 @@ We were to provide the following:
 - Software: Spyder 4.1.4
 
 ## Summary
-The results of our analysis are:
-
-Election Results
--------------------------
-Total Votes: 369,711
--------------------------
-Charles Casper Stockham: 23.0% (85,213)
-
-Diana DeGette: 73.8% (272,892)
-
-Raymon Anthony Doane: 3.1% (11,606)
-
--------------------------
-Winner: Diana DeGette
-Winning Vote Count: 272,892
-Winning Percentage: 73.8%
--------------------------
 
 ## Challenge Overview
 
