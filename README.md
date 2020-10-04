@@ -35,6 +35,26 @@ county_votes[county_name] = 0
   county_votes[county_name] += 1
 ```
 
-## Challenge Overview
+There were also calculations to give us the percentage of votes per county and percent of votes per candidate:
+Votes per county: `cvote_percentage = float(cvotes) / float(total_votes) * 100`
+Voter per candidate: `vote_percentage = float(votes) / float(total_votes) * 100`
 
-## Challenge Summary
+We also needed to calculate the overall winner which was done by comparing the number of votes per candidate and only returning the candidate with the most, along with their total vote count and percentage of votes they received:
+```
+if (votes > winning_count) and (vote_percentage > winning_percentage):
+  winning_count = votes
+  winning_candidate = candidate_name
+  winning_percentage = vote_percentage
+```
+
+We did something similar to get the county that had the largest percentage of votes:
+```
+if (cvotes > county_count):
+  county_count = cvotes
+  winning_county = county_name
+```
+Finally for each of these results we needed to save them to a text file using the `txt.file.write()` command.
+
+## Results
+
+The results that we received in our text file looked like this
