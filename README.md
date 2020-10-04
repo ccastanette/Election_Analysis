@@ -19,6 +19,22 @@ We were to provide the following:
 
 ## Summary
 
+We were able to get these results by first pulling out a list of candidate names, then a list of county names from the source `election_results.csv`
+```
+if candidate_name not in candidate_options:
+  candidate_options.append(candidate_name)
+```
+and
+```
+if county_name not in county_list: 
+  county_list.append(county_name)
+```
+Then used those in loops to pull out the information associated with each name. ie. we set the number of votes in each county to 0 then added 1 to it each time the line contained the county name:
+```
+county_votes[county_name] = 0
+  county_votes[county_name] += 1
+```
+
 ## Challenge Overview
 
 ## Challenge Summary
